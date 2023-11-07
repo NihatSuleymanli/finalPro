@@ -1,0 +1,162 @@
+
+.flex-watch-details {
+  text-align: center;
+}
+
+
+
+.watch-name {
+  font-size: 18px;
+}
+
+.cart-list {
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+
+.watch-price {
+  font-size: 16px;
+}
+
+.delete-btn {
+  margin-top: 1px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #e60000;
+}
+
+.cart-counter {
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+
+.cart-items {
+  padding: 20px;
+}
+
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.delete-btn {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.delete-btn:hover {
+  background-color: #cc4b39;
+}
+
+
+.sub-top {
+  background-color: #f5f5f5;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.sub-top-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.add-cart-btn,
+.delete-btn {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.add-cart-btn:hover,
+.delete-btn:hover {
+  background-color: #cc4b39;
+}
+
+.cart-item-image {
+  max-width: 100px !important;
+}
+
+.watch-name {
+  font-size: 18px !important;
+  margin-left: 10px;
+}
+
+.cart-list {
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+
+.delete-btn {
+  margin-top: 1px !important;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #e60000;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .cart-list li {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cart-item-image {
+    max-width: 80% !important; 
+    margin: 0 auto; 
+  }
+
+  .watch-name {
+    margin: 10px 0;
+  }
+
+  .watch-price {
+    margin: 10px 0;
+  }
+
+  .delete-btn {
+    margin-top: 10px;
+  }
+}

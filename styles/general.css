@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", Arial;
+  margin: 0;
+  color: #212529;
+}
+
+.body-scroll {
+  padding-top: 107px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Josefin Sans", Arial;
+}
+
+.scroll-container {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 99;
+}
+
+.to-top {
+  color: black;
+  padding: 4px;
+
+  zoom: 2;
+  background-color: rgb(255, 32, 32);
+  color: white;
+  border-radius: 2em;
+  transition: all 0.15s ease;
+}
+
+.to-top:hover {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.19);
+}
+
+.to-top .bi-arrow-up {
+  padding: 0 1.8px;
+}
+
+

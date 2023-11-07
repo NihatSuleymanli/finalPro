@@ -1,0 +1,167 @@
+.sign-in {
+  max-width: 1140px;
+  margin: 200px auto;
+  margin-bottom: 300px;
+  display: flex;
+}
+
+.register-box {
+  display: flex;
+  max-width: 49%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 68px;
+  background: rgb(175, 141, 172);
+  background: linear-gradient(
+    90deg,
+    rgba(175, 141, 172, 1) 0%,
+    rgba(98, 69, 95, 1) 97%
+  );
+  color: white;
+}
+
+
+.register-title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.register-desc {
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.create-btn {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  outline: 1px solid white;
+  padding: 20px 35px;
+  border-radius: 4px;
+  transition: all 0.28s ease-out;
+}
+
+.create-btn:hover {
+  background-color: white;
+  color: rgb(255, 32, 32);
+}
+
+.sign-in-box {
+  flex: 1;
+  margin: 95px;
+}
+
+.sign-in-title {
+  font-weight: bold;
+  color: #0b1c39;
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
+
+.sign-in-title span {
+  color: rgb(255, 32, 32);
+}
+
+.sign-in-title2 {
+  margin-bottom: 70px;
+}
+
+.sign-in-title2 span {
+  color: #2577fd;
+}
+
+.sign-input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: #495057;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+.sign-input::placeholder {
+  color: #777;
+}
+
+.remember-div {
+  padding: 15px 0;
+  padding-bottom: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.remember-txt {
+  color: #777;
+  margin-left: 8px;
+  font-size: 15px;
+}
+
+.remember-txt a {
+  text-decoration: none;
+  color: #1d68df;
+}
+
+.login-btn {
+  display: block;
+  width: 100%;
+  border: 1px solid #2577fd;
+  color: #2577fd;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 17px 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  color: white;
+  background-color: #2577fd;
+}
+
+.reset-pwd {
+  text-decoration: none;
+  color: #777;
+  display: block;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.reset-pwd span {
+  margin-left: 4px;
+  color: #2577fd;
+}
+
+
+@media (max-width: 480px) {
+  .sign-in {
+    flex-direction: column;
+    margin: 100px auto;
+  }
+
+  .register-box,
+  .sign-in-box {
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0;
+  }
+
+  .register-box {
+    margin-bottom: 20px;
+  }
+
+  .sign-input,
+  .create-btn,
+  .login-btn {
+    font-size: 14px;
+  }
+}

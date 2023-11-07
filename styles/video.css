@@ -1,0 +1,83 @@
+.video-box {
+  height: 700px;
+  background-image: url("../watches/video.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.video-play-flex {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.043);
+  transition: all 0.4s ease;
+}
+
+.video-box:hover .video-play-flex {
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.video-play {
+  text-decoration: none;
+}
+
+.video-play .bi-play-fill {
+  text-align: center;
+}
+
+.video-play .bi-play-fill::before {
+  color: white;
+  font-size: 40px;
+  border: 1px solid white;
+  padding: 18px;
+  border-radius: 10em;
+  transition: all 0.4s ease;
+}
+
+.video-play .bi-play-fill:hover::before {
+  color: rgb(255, 32, 32);
+  background-color: white;
+}
+
+.video-box:hover .bi-play-fill::before {
+  transform: scale(1.1);
+}
+
+.next-video-box {
+  background-color: rgb(255, 32, 32);
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  width: 33%;
+  padding: 50px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.next-video {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.next-icon {
+  color: white;
+  font-size: 40px;
+}
+
+.video-box-about{
+  margin-bottom: 100px;
+}

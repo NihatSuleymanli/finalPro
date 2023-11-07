@@ -1,0 +1,44 @@
+.shop-method {
+  max-width: 1040px;
+  background-color: rgb(234, 0, 0);
+  color: white;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  box-sizing: content-box;
+  column-gap: 100px;
+  line-height: 47px;
+  margin-top: 50px;
+}
+
+.method-colmn i {
+  font-size: 40px;
+}
+
+.method-title {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.method-descr {
+  color: rgb(212, 212, 212);
+  line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .shop-method {
+    flex-direction: column;
+    column-gap: 0;
+    text-align: center;
+  }
+
+  .method-colmn {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .method-colmn i {
+    font-size: 47px;
+  }
+}
